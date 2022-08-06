@@ -1,0 +1,6 @@
+{
+  "appId": "com.jscodeeditor.app",
+  "appName": "JsCodeEditor",
+  "webDir": "app",
+  "bundledWebRuntime": false
+}
