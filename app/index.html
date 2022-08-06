@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Code Editor</title>
+    
+    <!-- Codemirror CSS -->
+    <link rel="stylesheet" href="codemirror/lib/codemirror.css" />
+    <link rel="stylesheet" href="codemirror/theme/paraiso-dark.css" />
+
+    <!-- CSS Reset -->
+    <link href="reset.css" rel="stylesheet" type="text/css">>
+
+    <!-- Main CSS -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <main>
+        <!-- Code Section -->
+        <div id="editor" class="editor"></div>
+        <button id="btnExecute" class="btn">Execute</button>
+    
+        <!-- Console Section -->
+        <div id="console" class="console"></div>    
+        <button id="btnClear" class="btn btn-clear">Clear</button>   
+    </main>
+
+    <!-- Codemirror Scripts -->
+    <script src="codemirror/lib/codemirror.js" type="text/javascript" charset="utf-8"></script>
+    <script src="codemirror/addon/selection/active-line.js" type="text/javascript" charset="utf-8"></script>
+    <script src="codemirror/mode/javascript/javascript.js" type="text/javascript" charset="utf-8"></script>
+
+    <!-- Main Script -->
+    <script src="main.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>
